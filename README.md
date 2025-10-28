@@ -23,7 +23,7 @@ This repository provides a ready-to-run Docker setup for WordPress theme develop
 
 3. Build the images and start the stack:
    ```bash
-   docker compose up -d --build
+   docker-compose up -d --build
    ```
 
 4. Complete the WordPress installation wizard at your chosen URL (default `http://localhost:8080`). Use the database credentials defined in `.env`; the stack already created the database so you can click through without changing them.
